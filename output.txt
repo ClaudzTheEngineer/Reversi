@@ -1,0 +1,461 @@
+size = 4
+r0c1 alg1, r1c1
+r2c0 alg2, r2c1
+r3c0 alg1, r2c1
+r0c0 alg2, r1c1
+r1c0 alg1, r1c1 r2c0
+r0c2 alg2, r1c2 r0c1
+r0c3 alg1, r1c2
+r2c3 alg2, r1c2
+r1c3 alg1, r1c2
+r3c1 alg2, r2c1 r1c1
+r3c2 alg1, r2c1 r2c2 r3c1
+r3c3 alg2, r2c2
+alg1 = 9
+alg2 = 7
+win = alg1
+
+size = 6
+r1c2 alg1, r2c2
+r1c1 alg2, r2c2
+r1c0 alg1, r1c1
+r0c2 alg2, r1c2
+r4c4 alg1, r3c3 r2c2
+r4c2 alg2, r3c2 r2c2
+r0c1 alg1, r1c2
+r1c4 alg2, r2c3
+r5c2 alg1, r4c2 r3c2 r2c2
+r2c0 alg2, r1c1
+r0c5 alg1, r1c4 r2c3
+r5c5 alg2, r4c4 r3c3 r2c2
+r2c1 alg1, r1c1 r2c2
+r3c1 alg2, r3c2
+r4c1 alg1, r3c1 r3c2
+r5c3 alg2, r4c2 r3c1
+r3c0 alg1, r2c0 r3c1
+r5c1 alg2, r5c2
+r4c3 alg1, r3c3 r4c2
+r2c4 alg2, r3c3 r4c2
+r3c4 alg1, r2c4 r3c3
+r2c5 alg2, r3c4 r4c3
+r4c5 alg1, r3c4 r4c4 r4c3 r4c2
+r1c3 alg2, r2c3 r3c3 r4c3
+r0c3 alg1, r0c2
+r4c0 alg2, r3c1 r2c2 r4c1 r4c2
+r5c0 alg1, r4c0 r4c1
+r0c0 alg2, r1c1
+r5c4 alg1, r4c3 r5c3 r5c2 r5c1
+r1c5 alg2, r2c4 r1c4
+r0c4 alg1, r1c4 r2c4 r1c3 r2c2 r3c1
+r3c5 alg2, r4c5 r3c4
+alg1 = 25
+alg2 = 11
+win = alg1
+
+size = 8
+r2c3 alg1, r3c3
+r4c2 alg2, r4c3
+r5c1 alg1, r4c2
+r2c2 alg2, r3c3
+r4c5 alg1, r4c4 r4c3
+r5c5 alg2, r4c4
+r2c1 alg1, r2c2
+r4c6 alg2, r4c5
+r4c7 alg1, r4c6 r4c5 r4c4
+r3c5 alg2, r4c5 r3c4
+r2c4 alg1, r3c5 r3c4 r3c3
+r1c2 alg2, r2c3 r3c4
+r6c5 alg1, r5c5 r4c5
+r5c6 alg2, r4c5
+r0c2 alg1, r1c2
+r5c2 alg2, r4c3
+r6c7 alg1, r5c6 r4c5 r3c4 r2c3
+r4c1 alg2, r4c2
+r4c0 alg1, r4c1 r4c2 r4c3
+r5c0 alg2, r5c1
+r6c0 alg1, r5c0 r5c1
+r2c5 alg2, r3c4 r4c3
+r5c3 alg1, r4c3 r5c2
+r6c1 alg2, r5c2 r4c3
+r6c2 alg1, r5c2 r6c1
+r1c4 alg2, r2c4
+r0c4 alg1, r1c4 r2c4 r3c4
+r2c0 alg2, r2c1 r2c2 r2c3 r2c4
+r1c3 alg1, r2c4 r2c3
+r6c6 alg2, r5c5 r4c4 r3c3
+r3c2 alg1, r2c2 r3c3
+r0c3 alg2, r1c4 r1c3 r2c3 r3c3 r1c2
+r7c7 alg1, r6c6 r5c5 r4c4 r3c3
+r5c7 alg2, r4c6 r3c5 r2c4
+r2c6 alg1, r3c5 r2c5 r2c4 r2c3
+r3c7 alg2, r4c7
+r2c7 alg1, r3c7 r4c7 r5c7
+r7c0 alg2, r6c1 r5c2
+r0c1 alg1, r1c2
+r0c0 alg2, r0c1 r0c2
+r1c5 alg1, r1c4 r1c3
+r3c1 alg2, r4c1 r5c1
+r3c0 alg1, r2c1 r3c1
+r1c0 alg2, r2c1 r3c2
+r7c1 alg1, r6c1 r5c1 r4c1
+r6c3 alg2, r5c3
+r7c3 alg1, r6c3 r5c3 r4c3
+r1c6 alg2, r2c5 r3c4 r4c3
+r0c7 alg1, r1c6 r2c5 r3c4 r4c3 r5c2
+r6c4 alg2, r5c3 r4c2 r3c1 r5c5
+r1c1 alg1, r2c1 r3c1
+r0c6 alg2, r1c5 r2c4 r3c3
+r7c5 alg1, r6c4 r5c3 r4c2
+r3c6 alg2, r2c5 r1c4 r2c6 r1c6 r3c5 r3c4
+r0c5 alg1, r0c6 r1c6 r1c5 r2c5 r3c5 r1c4
+r5c4 alg2, r4c3 r4c4 r4c5
+r1c7 alg1, r2c6
+r7c2 alg2, r6c2 r5c2 r4c2 r6c3 r7c1
+r7c4 alg1, r6c3 r5c2
+r7c6 alg2, r6c5 r6c6 r5c6 r7c5 r7c4 r7c3
+alg1 = 35
+alg2 = 29
+win = alg1
+
+size = 10
+r3c4 alg1, r4c4
+r3c3 alg2, r4c4
+r3c2 alg1, r3c3
+r3c5 alg2, r4c5
+r3c6 alg1, r4c5 r3c5
+r2c6 alg2, r3c5
+r6c6 alg1, r5c5 r4c4
+r3c7 alg2, r3c6
+r3c8 alg1, r3c7 r3c6 r3c5
+r4c8 alg2, r3c7
+r1c6 alg1, r2c6
+r3c9 alg2, r3c8
+r5c9 alg1, r4c8 r3c7
+r3c1 alg2, r3c2 r3c3 r3c4 r3c5 r3c6 r3c7
+r2c2 alg1, r3c3
+r6c4 alg2, r5c4 r4c4
+r5c3 alg1, r4c4 r3c5 r5c4
+r1c3 alg2, r2c2
+r3c0 alg1, r3c1 r3c2
+r4c6 alg2, r5c5
+r5c6 alg1, r4c6 r3c6 r5c5
+r6c7 alg2, r5c6 r4c5
+r0c4 alg1, r1c3 r2c2
+r2c7 alg2, r3c6
+r1c8 alg1, r2c7 r3c6 r4c5
+r6c5 alg2, r6c6
+r7c6 alg1, r6c5 r6c6 r5c6
+r5c7 alg2, r4c8
+r5c8 alg1, r6c7 r5c7
+r6c8 alg2, r5c8 r6c7 r6c6 r6c5
+r4c9 alg1, r3c8 r5c8 r6c7
+r2c4 alg2, r3c5 r4c6 r5c7
+r7c9 alg1, r6c8 r5c7 r4c6 r3c5 r2c4
+r4c3 alg2, r5c4
+r6c3 alg1, r5c4 r6c4 r6c5 r6c6
+r1c7 alg2, r2c7
+r2c8 alg1, r3c7 r2c7
+r2c1 alg2, r3c2
+r1c0 alg1, r2c1 r3c2 r4c3
+r1c4 alg2, r2c4
+r1c5 alg1, r2c4 r1c4
+r5c2 alg2, r4c3
+r0c6 alg1, r1c7
+r8c7 alg2, r7c6 r6c5 r5c4
+r9c8 alg1, r8c7 r7c6 r6c5 r5c4 r4c3
+r7c5 alg2, r6c6 r5c7
+r4c7 alg1, r4c8 r5c7
+r8c6 alg2, r7c6
+r8c5 alg1, r7c5 r7c6 r8c6
+r6c2 alg2, r6c3 r6c4 r6c5
+r6c1 alg1, r5c2 r6c2 r6c3 r6c4 r6c5 r6c6
+r7c4 alg2, r6c4 r5c4 r4c4
+r8c4 alg1, r7c4 r6c4 r5c4 r4c4 r3c4
+r6c9 alg2, r5c9 r4c9
+r2c9 alg1, r3c9 r4c9 r5c9 r6c9
+alg1 = 59
+alg2 = 0
+win = alg1
+
+size = 12
+r4c5 alg1, r5c5
+r4c4 alg2, r5c5
+r4c3 alg1, r4c4
+r7c5 alg2, r6c5
+r8c5 alg1, r7c5 r6c5 r5c5
+r6c4 alg2, r6c5
+r5c3 alg1, r6c4
+r8c4 alg2, r7c5
+r6c7 alg1, r6c6 r6c5
+r9c5 alg2, r8c5
+r10c5 alg1, r9c5 r8c5 r7c5
+r5c7 alg2, r6c6 r7c5
+r4c7 alg1, r5c7
+r11c5 alg2, r10c5 r9c5 r8c5
+r9c3 alg1, r8c4 r7c5 r6c6
+r3c5 alg2, r4c5 r5c5 r6c5 r7c5
+r4c6 alg1, r5c5 r4c5
+r6c2 alg2, r5c3 r4c4
+r8c6 alg1, r7c5 r8c5
+r7c7 alg2, r6c6 r5c5 r8c6
+r8c7 alg1, r7c7 r8c6
+r4c2 alg2, r4c3
+r3c3 alg1, r4c4 r5c5 r6c6
+r2c4 alg2, r3c3
+r1c3 alg1, r2c4 r3c5
+r7c3 alg2, r8c4
+r3c1 alg1, r4c2 r5c3
+r3c8 alg2, r4c7 r5c6
+r2c3 alg1, r3c3 r4c3
+r5c8 alg2, r5c7
+r5c9 alg1, r5c8 r5c7 r5c6
+r6c8 alg2, r7c7 r8c6 r6c7 r6c6
+r6c9 alg1, r6c8 r6c7 r6c6 r6c5
+r2c5 alg2, r3c5 r4c5 r5c5 r6c5 r7c5 r8c5
+r8c3 alg1, r8c4 r8c5 r8c6
+r9c7 alg2, r8c6 r8c7
+r1c5 alg1, r2c5 r3c5 r4c5 r5c5 r6c5 r7c5
+r2c0 alg2, r3c1 r4c2 r5c3 r6c4 r7c5
+r5c1 alg1, r4c2 r6c2 r7c3
+r7c1 alg2, r6c2
+r10c8 alg1, r9c7 r8c6 r7c5 r6c4 r5c3
+r8c2 alg2, r8c3 r8c4 r8c5 r8c6
+r10c4 alg1, r9c5 r8c6 r7c7
+r4c8 alg2, r5c7 r6c6 r7c5
+r3c9 alg1, r4c8 r5c7 r6c6 r7c5 r8c4
+r3c10 alg2, r3c9
+r2c9 alg1, r3c8 r4c7
+r3c7 alg2, r3c8 r4c7 r5c7 r6c7 r7c7 r4c6 r5c5 r6c4 r7c3
+r2c7 alg1, r3c7 r4c7 r5c7 r6c7 r7c7 r8c7
+r4c9 alg2, r4c8 r4c7
+r9c1 alg1, r8c2 r7c3 r6c4 r5c5 r4c6
+r1c8 alg2, r2c9
+r1c9 alg1, r2c9 r3c9 r4c9
+r6c10 alg2, r5c9
+r7c11 alg1, r6c10 r5c9 r4c8
+r10c6 alg2, r9c5 r8c4 r7c3
+r11c7 alg1, r10c6 r9c5 r8c4 r7c3 r6c2
+r5c10 alg2, r4c9
+r6c11 alg1, r5c10 r4c9 r3c8
+r7c6 alg2, r6c7 r5c8 r4c9
+r3c6 alg1, r4c7 r5c8
+r0c9 alg2, r1c9 r2c9 r3c9
+r9c4 alg1, r8c5 r7c6 r6c7
+r6c3 alg2, r7c3
+r2c11 alg1, r3c10 r4c9
+r2c6 alg2, r3c5 r4c4 r5c3 r6c2
+r0c7 alg1, r1c8 r2c9
+r10c0 alg2, r9c1 r8c2
+r6c0 alg1, r7c1 r8c2
+r2c2 alg2, r2c3 r2c4 r2c5 r3c3
+r1c7 alg1, r2c6 r3c5 r4c4 r5c3 r6c2
+r0c4 alg2, r1c3
+r2c1 alg1, r2c2 r2c3 r2c4 r2c5
+r3c11 alg2, r3c10
+r4c11 alg1, r3c10 r3c11
+r7c9 alg2, r6c8 r5c7 r4c6 r3c5 r2c4 r6c9 r5c9 r4c9
+r8c9 alg1, r7c9 r6c9 r5c9 r4c9 r3c9
+r8c8 alg2, r7c7 r6c6 r5c5 r4c4 r9c7 r10c6 r8c7 r8c6 r8c5 r8c4
+r0c2 alg1, r1c3 r2c4 r3c5 r4c6 r5c7 r6c8
+r2c10 alg2, r3c9 r4c8 r5c7
+r9c9 alg1, r8c8 r7c7 r6c6 r5c5 r4c4 r3c3
+r0c3 alg2, r1c3 r2c3 r3c3 r4c3 r5c3
+r1c11 alg1, r2c10 r3c9 r4c8 r5c7
+r8c0 alg2, r7c1 r6c2
+r10c7 alg1, r9c7 r8c7 r10c6 r10c5
+r2c8 alg2, r3c7 r4c6 r5c5 r6c4 r2c7 r2c6 r2c5 r2c4
+r0c10 alg1, r1c9 r2c8 r3c7 r4c6 r5c5 r6c4 r7c3
+r11c9 alg2, r10c8 r9c7
+r0c5 alg1, r0c4 r0c3
+r4c10 alg2, r5c9 r6c8 r7c7 r4c9 r4c8 r4c7 r4c6 r4c5 r4c4
+r1c6 alg1, r2c7 r2c6
+r4c0 alg2, r5c1
+r3c4 alg1, r2c5 r4c5
+r10c10 alg2, r9c9 r8c8
+r11c11 alg1, r10c10 r9c9 r8c8 r7c7
+r7c4 alg2, r6c5 r5c6
+r9c2 alg1, r8c3 r7c4 r6c5 r5c6 r4c7
+r5c11 alg2, r6c10 r7c9 r8c8 r5c10
+r7c10 alg1, r6c10 r5c10 r4c10
+r8c10 alg2, r9c9 r8c9
+r10c9 alg1, r9c9 r8c9 r7c9 r10c8
+r9c6 alg2, r9c5 r9c4 r9c3 r9c2
+r10c2 alg1, r9c2 r9c3 r8c4
+r11c3 alg2, r10c2 r10c4
+r9c8 alg1, r9c7 r9c6 r9c5 r9c4
+r10c3 alg2, r9c3 r8c3 r7c3 r9c4
+r11c2 alg1, r10c2 r10c3 r9c4 r8c5
+r8c1 alg2, r8c2
+r7c2 alg1, r7c3 r8c3 r8c2
+r5c4 alg2, r4c5 r3c6 r2c7 r1c8 r5c5 r5c6 r5c7 r5c8 r6c4 r7c4 r8c4 r9c4
+r5c2 alg1, r4c3 r5c3 r5c4 r5c5 r5c6 r5c7 r5c8 r5c9 r6c3 r7c4 r6c2
+r0c6 alg2, r1c7 r2c8 r3c9 r4c10 r1c6 r2c6 r1c5
+r0c8 alg1, r0c9 r1c8 r2c8 r1c7 r2c6
+r1c10 alg2, r2c10 r3c10 r1c9 r1c8 r1c7
+r1c4 alg1, r1c5 r1c6 r1c7 r1c8 r1c9 r1c10 r2c4
+r0c1 alg2, r0c2 r0c3 r0c4 r0c5
+r0c0 alg1, r0c1 r0c2 r0c3 r0c4 r0c5 r0c6
+r9c11 alg2, r10c10
+r11c4 alg1, r10c4 r9c4 r8c4 r11c3
+r11c1 alg2, r10c2 r11c2 r11c3 r11c4
+r1c2 alg1, r1c3 r2c3
+r11c8 alg2, r10c8 r9c8
+r7c0 alg1, r7c1 r8c1
+r7c8 alg2, r6c7 r5c6 r8c7 r9c6 r10c5
+r9c0 alg1, r8c0 r9c1
+r1c1 alg2, r2c2 r2c1
+r4c1 alg1, r3c1 r2c1 r1c1
+r0c11 alg2, r1c11 r2c11 r3c11 r4c11 r1c10 r2c9 r3c8 r4c7
+r3c2 alg1, r2c2 r3c3
+r5c0 alg2, r6c0 r7c0 r8c0 r9c0
+r11c10 alg1, r11c9 r11c8
+r8c11 alg2, r7c10 r6c9 r5c8 r7c11 r6c11
+r9c10 alg1, r8c10 r7c10 r10c10
+r3c0 alg2, r3c1 r3c2 r3c3 r3c4 r3c5 r4c1 r5c2 r6c3 r7c4 r8c5
+r6c1 alg1, r5c1 r4c1 r3c1 r5c2
+r10c11 alg2, r9c10 r8c9 r10c10 r10c9
+r10c1 alg1, r10c2
+r11c6 alg2, r10c6 r10c7
+r11c0 alg1, r11c1 r11c2 r11c3 r11c4 r11c5 r11c6
+r1c0 alg2, r1c1 r1c2 r1c3 r1c4 r1c5 r1c6 r1c7 r1c8 r1c9 r2c1
+alg1 = 70
+alg2 = 74
+win = alg2
+
+size = 14
+r5c6 alg1, r6c6
+r5c5 alg2, r6c6
+r5c4 alg1, r5c5
+r4c6 alg2, r5c6
+r3c6 alg1, r4c6 r5c6 r6c6
+r7c5 alg2, r7c6
+r8c4 alg1, r7c5
+r4c4 alg2, r5c5 r6c6
+r7c8 alg1, r7c7 r7c6
+r5c7 alg2, r5c6
+r3c3 alg1, r4c4 r5c5 r6c6
+r3c5 alg2, r4c6
+r5c8 alg1, r5c7 r5c6
+r8c6 alg2, r7c6 r6c6 r5c6
+r9c6 alg1, r8c6 r7c6 r6c6 r5c6 r4c6
+r5c3 alg2, r4c4
+r3c4 alg1, r3c5 r4c4
+r2c6 alg2, r3c5 r4c4
+r1c6 alg1, r2c6
+r3c2 alg2, r3c3 r3c4
+r3c1 alg1, r3c2 r3c3 r3c4 r3c5
+r2c4 alg2, r3c4
+r1c4 alg1, r2c4 r3c4 r4c4
+r5c9 alg2, r5c8 r5c7 r5c6 r5c5 r5c4
+r6c4 alg1, r5c4 r5c5
+r1c3 alg2, r2c4 r3c5 r4c6
+r5c10 alg1, r5c9 r5c8 r5c7 r5c6
+r7c3 alg2, r6c4 r5c5
+r0c2 alg1, r1c3 r2c4 r3c5 r4c6
+r1c7 alg2, r2c6 r3c5 r4c4
+r8c2 alg1, r7c3 r6c4 r5c5
+r8c8 alg2, r7c7 r6c6 r5c5
+r9c9 alg1, r8c8 r7c7 r6c6 r5c5 r4c4
+r3c7 alg2, r3c6
+r0c8 alg1, r1c7 r2c6 r3c5
+r3c0 alg2, r3c1 r3c2 r3c3 r3c4 r3c5
+r4c2 alg1, r3c3 r5c3
+r0c6 alg2, r1c6 r2c6
+r3c8 alg1, r3c7 r3c6 r3c5 r3c4
+r6c2 alg2, r5c3 r4c4 r3c5
+r7c1 alg1, r6c2 r5c3 r4c4 r3c5 r2c6
+r9c7 alg2, r8c6 r7c5 r6c4 r5c3 r4c2
+r7c4 alg1, r6c4 r7c5
+r7c9 alg2, r8c8
+r2c0 alg1, r3c1 r4c2 r5c3
+r2c8 alg2, r1c7
+r9c8 alg1, r8c8 r9c7
+r5c2 alg2, r4c2
+r2c2 alg1, r3c2 r4c2 r5c2
+r4c8 alg2, r3c8
+r1c8 alg1, r2c8 r3c8 r4c8
+r1c0 alg2, r2c0
+r1c5 alg1, r1c6 r1c7
+r10c8 alg2, r9c7
+r11c9 alg1, r10c8 r9c7 r8c6
+r12c10 alg2, r11c9 r10c8 r9c7 r8c6 r7c5 r6c4 r5c3 r4c2 r3c1
+r4c0 alg1, r3c1
+r5c1 alg2, r5c2
+r13c11 alg1, r12c10 r11c9 r10c8 r9c7 r8c6 r7c5 r6c4 r5c3 r4c2
+r1c2 alg2, r2c2 r3c2 r4c2
+r0c0 alg1, r1c0 r2c0 r3c0
+r9c5 alg2, r8c4 r7c3 r6c2
+r7c2 alg1, r6c2 r5c2 r4c2 r3c2 r2c2 r1c2 r7c3
+r10c6 alg2, r9c6 r8c6 r7c6 r6c6 r5c6 r4c6 r3c6 r2c6 r1c6 r9c7 r8c8
+r9c4 alg1, r8c4 r9c5 r9c6 r9c7
+r7c0 alg2, r7c1 r7c2 r7c3 r7c4 r7c5
+r6c0 alg1, r5c1 r7c1
+r8c0 alg2, r7c1 r6c2 r5c3 r4c4 r3c5
+r6c10 alg1, r7c9 r8c8
+r4c9 alg2, r5c8 r6c7
+r4c5 alg1, r5c6 r6c7
+r9c2 alg2, r8c2
+r10c2 alg1, r9c2 r8c2 r7c2 r6c2
+r0c4 alg2, r1c5 r1c4 r2c4 r3c4
+r3c10 alg1, r4c9 r5c8
+r6c3 alg2, r5c4 r4c5
+r2c7 alg1, r3c6 r4c5 r5c4 r6c3
+r8c9 alg2, r7c8 r6c7 r5c6 r4c5
+r2c5 alg1, r2c6 r3c5 r4c5
+r4c7 alg2, r3c6 r2c5 r5c7
+r0c3 alg1, r1c4 r2c5 r3c6 r4c7
+r3c9 alg2, r2c8 r1c7 r4c8 r3c8 r3c7 r3c6 r3c5
+r2c10 alg1, r3c9 r4c8 r5c7 r6c6 r7c5
+r6c8 alg2, r5c7 r5c8 r4c8 r7c7
+r8c5 alg1, r7c4 r7c6 r6c7 r5c8
+r5c0 alg2, r5c1 r5c2 r6c0
+r9c0 alg1, r8c0 r7c0 r6c0 r5c0
+r1c9 alg2, r1c8
+r1c10 alg1, r1c9 r1c8 r1c7 r1c6 r1c5
+r4c10 alg2, r3c9 r5c9 r4c9
+r3c11 alg1, r4c10 r5c9 r6c8 r7c7 r8c6
+r6c5 alg2, r5c5 r4c5
+r4c3 alg1, r3c4 r4c4 r4c5 r4c6 r5c3
+r2c1 alg2, r3c2 r4c3 r5c4
+r2c9 alg1, r3c9 r4c9 r3c8 r2c8
+r10c10 alg2, r9c9 r8c8 r7c7 r6c6
+r11c11 alg1, r10c10 r9c9 r8c8 r7c7 r6c6 r5c5
+r7c10 alg2, r7c9
+r7c11 alg1, r7c10 r7c9 r7c8
+r8c12 alg2, r7c11 r6c10 r5c9
+r9c13 alg1, r8c12 r7c11 r6c10 r5c9 r4c8 r3c7
+r10c5 alg2, r9c5 r8c5 r7c5
+r11c5 alg1, r10c5 r9c5 r8c5 r7c5 r6c5 r10c6
+r6c11 alg2, r7c10
+r5c12 alg1, r6c11 r7c10 r8c9
+r0c9 alg2, r1c8 r2c7
+r6c1 alg1, r5c2 r4c3
+r9c1 alg2, r8c2
+r10c0 alg1, r9c1 r8c2 r7c3
+r11c7 alg2, r10c6 r9c5 r8c4 r7c3 r6c2
+r12c8 alg1, r11c7 r10c6 r9c5 r8c4 r7c3 r6c2 r5c1
+r8c10 alg2, r7c9 r6c8
+r9c11 alg1, r8c10 r7c9 r6c8 r5c7
+r1c1 alg2, r1c2 r1c3 r1c4 r1c5 r1c6 r1c7
+r0c5 alg1, r1c6 r2c7 r1c5 r0c4
+r11c6 alg2, r10c6 r9c6 r8c6 r7c6 r6c6
+r12c6 alg1, r11c6 r10c6 r9c6 r8c6 r7c6 r6c6 r5c6
+r2c3 alg2, r2c2
+r0c1 alg1, r1c2 r2c3 r1c1 r2c1
+r4c11 alg2, r3c10 r2c9
+r0c7 alg1, r1c8 r2c9 r3c10 r4c11 r1c7 r0c6
+r3c12 alg2, r3c11 r3c10 r3c9 r3c8 r3c7
+r3c13 alg1, r3c12 r3c11 r3c10 r3c9 r3c8 r3c7 r3c6 r3c5
+r8c1 alg2, r7c2 r6c3
+r0c10 alg1, r0c9
+r9c3 alg2, r8c2
+r8c3 alg1, r7c2 r8c2 r8c1
+r12c12 alg2, r11c11 r10c10 r9c9 r8c8 r7c7 r6c6 r5c5 r4c4 r3c3
+r13c13 alg1, r12c12 r11c11 r10c10 r9c9 r8c8 r7c7 r6c6 r5c5 r4c4 r3c3 r2c2
+r4c1 alg2, r5c2 r5c1 r6c1
+r10c3 alg1, r9c3
+r8c7 alg2, r7c6 r6c5
+r1c11 alg2, r1c10 r1c9 r1c8 r1c7 r1c6 r1c5
+alg1 = 116
+alg2 = 21
+win = alg1
