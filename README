@@ -1,0 +1,8 @@
+Claudio Surmon - 1830290
+
+For this program to work you need
+-main.cpp
+-Board.h
+-Board.cpp
+
+The user will need to generate a input.txt file, in which they put even integers between 4 and 16 separated by a comma. eg "4,6,8,10,12,14,16"
